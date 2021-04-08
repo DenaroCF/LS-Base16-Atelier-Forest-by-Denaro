@@ -7,4 +7,4 @@ Copy ``@import url('https://raw.githack.com/DenaroCF/LS-Base16-Atelier-Forest-by
 
 ### Demo
 
-![Drk-theme](imgs/Dark-base16.png)
+![Drk-theme](imgs/Dark-base16.png) ![Light-theme](imgs/Light-base16.png)
