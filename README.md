@@ -1,5 +1,5 @@
 # Logseq Base16 Atelier Forest by Denaro
-Logseq theme based on "Base16 Atelier Forest" special thanks to [Nikdoof](https://twitter.com/nikdoof_?s=20)
+Logseq theme based on "Base16 Atelier Forest" special thanks to [Nikdoof](https://twitter.com/nikdoof_?s=20) and [Chris Ruzin](https://twitter.com/nizur?s=20)
 
 _**You can find how to install the theme at the end of the text.**_
 
