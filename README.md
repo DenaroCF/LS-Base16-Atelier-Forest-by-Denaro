@@ -13,4 +13,4 @@ _**You can find how to install the theme at the end of the text.**_
 
 ## Install
 
-Copy ``@import url('https://raw.githack.com/DenaroCF/LS-Base16-Atelier-Forest-by-Denaro/main/custom.css');`` into your _custom.css_ file (you can find this file inside of Logseq
+Copy ``@import url('https://raw.githack.com/DenaroCF/LS-Base16-Atelier-Forest-by-Denaro/main/custom.css');`` into your _custom.css_ file (you can find this file inside of Logseq)
