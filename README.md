@@ -1,7 +1,7 @@
 # Logseq Base16 Atelier Forest by Denaro
 Logseq theme based on "Base16 Atelier Forest" <u>special thanks to Nikdoof</u>
 
-**You can find how to install the theme at the end of the text.**
+_**You can find how to install the theme at the end of the text.**_
 
 ## Demo
 
