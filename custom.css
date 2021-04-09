@@ -354,7 +354,7 @@ div[data-refs-self*="kanban-w400"] > .block-children .block-content {
     --base0Al: #c38418;
     --base0Bl: #7b9726;
     --base0Cl: #3d97b8;
-    --base0Dl: #407ee7;1
+    --base0Dl: #407ee7;
     --base0El: #6666ea;
     --base0Fl: #c33ff3;
     --base00: #1b1918;
@@ -405,7 +405,10 @@ p {
 b {
     font-weight: 800;
 }
-
+i {
+  font-family: 'Arbutus Slab', sans-serif;
+  font-weight: 35;
+}
 
   
   .white-theme {
@@ -445,7 +448,10 @@ b {
         --ls-tag-text-colot-hover: var(--base0Fl);
   }
   
-
+.white-theme .block-ref {
+  border-bottom: 2px dashed var(--base08l);
+  padding-bottom: 0.13rem;
+}
   
   .white-theme .focus\:shadow-outline:focus {
       box-shadow: 0 0 0 3px var(--base0Al);
@@ -646,9 +652,23 @@ b {
     --ls-tag-text-colot-hover: var(--base0F);
 }
 
+.dark-theme .block-ref {
+  border-bottom: 2px dashed var(--base08);
+  padding-bottom: 0.13rem;
+}
+
+.dark-theme .page-reference .bracket {
+    color: var(--ls-border-color);
+    opacity: 0.5;
+}
+
 .dark-theme .form-checkbox {
     background-color: var(--base00);
     border-color: var(--base04);
+}
+.dark-theme .form-checkbox.checked {
+    background-color: var(--ls-border-color);
+    border: none !important;
 }
 
 mark {
