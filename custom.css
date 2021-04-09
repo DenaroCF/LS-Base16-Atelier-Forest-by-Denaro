@@ -36,6 +36,24 @@
 
 /*
 ==================================================
+BLOCK EDITOR HIGHLIGHT
+==================================================
+*/
+
+    .editor-inner {
+    background-color: var(--ls-tertiary-background-color);
+    border-radius: var(--ls-border-radius-low);
+    padding: 3px 5px;
+}
+	.editor-inner textarea {
+    line-height: 1.39;
+    word-break: break-word;
+    overflow: invisible;
+    resize: none;
+}
+
+/*
+==================================================
 EXTERNAL LINKS
 ==================================================
 */
@@ -336,7 +354,7 @@ div[data-refs-self*="kanban-w400"] > .block-children .block-content {
     --base0Al: #c38418;
     --base0Bl: #7b9726;
     --base0Cl: #3d97b8;
-    --base0Dl: #407ee7;
+    --base0Dl: #407ee7;1
     --base0El: #6666ea;
     --base0Fl: #c33ff3;
     --base00: #1b1918;
@@ -359,12 +377,17 @@ div[data-refs-self*="kanban-w400"] > .block-children .block-content {
     --pomegranate: rgba(192,57,43,1);
     --sunflower: rgba(241,196,15,1);
     --greensea: rgba(22,160,133,1);
+  --ls-external-link-color: var(--base0B);
+    --ls-external-link-hover-color: var(--greensea);
    
+  /* External link icon */
+  --ls-external-link-icon: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGDSURBVHgBtZaNcYMwDIUfGzgbqBuUDcwkaTdoJ4AN0gmaTNJu0GyQdILSCUjRIa6yMT+x4d29O7CNPmMLmQzryYhZ39hIDChbX1vflPn+2JqwoigA8t20fsEKogCslrZ6C6iG/UhAo/qLwBhCpCzc2T+OjNu1PquxB0TqpIK8e33k3Rdw3zJKnyqIVe2VtF1UW4b/PW0QuawaaDyYH5iBVyQCSQA2ALvJPRRQT8QgUdUEjPWs+r6QqHIGlsPdv/1UMIuuNJ3Fh4UwI8+WcAvAZQxEcJNCm2ZgOYZVpodRCPaAYblqxP0MK4wv42sA9oGJzPRLEQez8oDBfILwhHl1eAuOcL/RgZ48mF+uqhnY3dI1b781zHgBl8AKuSZEiOCe1KF2P/V1UiQBa6+Ps7OBu4w2FQi4308RmJDWCePH02K9qSCcQLuRcTncZbaIFKH7HPRe8ptmYp4A/0bUCO93lDhgg2U/RqPlag3o4toYK0JXmvoM1fW0QuIhmmEezvoVJ+sPourrpWEel2gAAAAASUVORK5CYII=");
+
+  
   /* Fonts */
     --ls-font-family: 'Arbutus Slab', serif;
-
-
-  }
+  --ls-font-line-height: 1.37;
+}
 
   html,
   body {
@@ -376,18 +399,14 @@ div[data-refs-self*="kanban-w400"] > .block-children .block-content {
 }
 p {
    font-family: 'Arbutus Slab', serif;
-   font-weight: 80;
+   font-weight: 60;
    font-style: normal;
 }
 b {
-    color: var(--pomegranate);
+    font-weight: 800;
 }
 
-.blocks-properties .my-1 b {
-    border-radius: var(--ls-border-radius-low);
-    color: var(--text-accent);
-    font-weight: 1000;
-}
+
   
   .white-theme {
     --button-blue: var(--base0Cl);
@@ -421,9 +440,9 @@ b {
       --ls-icon-color: var(--base05l);
       --ls-search-icon-color: var(--ls-link-text-color);
       --ls-a-chosen-bg: var(--ls-secondary-background-color);
-      --ls-tag-background-color: var(--ls-link-text-color);
-        --ls-tag-text-color: var(--ls-link-text-color);
-        --ls-tag-text-colot-hover: var(--ls-tag-text-colot-hover);
+      --ls-tag-background-color: var(--base0Fl);
+        --ls-tag-text-color: var(--base0El);
+        --ls-tag-text-colot-hover: var(--base0Fl);
   }
   
 
@@ -622,9 +641,9 @@ b {
     --ls-icon-color: var(--base05);
     --ls-search-icon-color: var(--ls-link-text-color);
     --ls-a-chosen-bg: var(--base01);
-    --ls-tag-background-color: var(--ls-link-text-color);
-    --ls-tag-text-color: var(--ls-link-text-color);
-    --ls-tag-text-colot-hover: var(--ls-tag-text-colot-hover);
+    --ls-tag-background-color: var(--base0F);
+    --ls-tag-text-color: var(--base0E);
+    --ls-tag-text-colot-hover: var(--base0F);
 }
 
 .dark-theme .form-checkbox {
