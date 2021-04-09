@@ -6,10 +6,10 @@ _**You can find how to install the theme at the end of the text.**_
 ## Demo
 
 - **Dark Mode**
-![Drk-theme](imgs/Dark-base16.png)
+![Drk-theme](imgs/Dark-base16_v0.2.png)
 
 - **Light Mode**
-![Light-theme](imgs/Light-base16.png)
+![Light-theme](imgs/Light-base16v_0.2.png)
 
 ## Install
 
