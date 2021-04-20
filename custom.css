@@ -308,33 +308,11 @@ div[data-refs-self*="kanban-w400"] > .block-children .block-content {
 
 /*Left sidebar*/
 
-.cp__sidebar-layout.is-right-sidebar-open .cp__sidebar-main-layout {
-    margin-left: var(--ls-right-sidebar-width);
-    margin-right: -45px;
-}
-.cp__right-sidebar {
-    left: 0;
-    right: auto;
-}
-.cp__right-sidebar-inner > .flex {
-    flex-direction: row-reverse;
-}
-.close-arrow svg {
-    transform: scale(-.8, .8) !important;
-}
-.cp__right-sidebar-settings {
-    margin-right: -3px;
-    flex-direction: row-reverse;
-}
-
-/* to move main page closer to the left, you'll need to modify it for your screen */
-.cp__sidebar-layout.is-right-sidebar-open .cp__sidebar-main-layout {
-    margin-left: calc(var(--ls-right-sidebar-width) - 60px);
 }
 
 :root {
 
-	--ls-right-sidebar-width: 44%;
+	--ls-right-sidebar-width: 44.5%;
 	--ls-main-content-max-width: 840px;
   --ls-border-radius-tiny: 2px;
   --ls-border-radius-low: 3px;
