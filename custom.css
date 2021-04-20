@@ -306,10 +306,6 @@ div[data-refs-self*="kanban-w400"] > .block-children .block-content {
   transform: rotate(2deg);
 }
 
-/*Left sidebar*/
-
-}
-
 :root {
 
 	--ls-right-sidebar-width: 45%;
