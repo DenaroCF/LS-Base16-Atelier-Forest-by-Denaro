@@ -309,7 +309,7 @@ div[data-refs-self*="kanban-w400"] > .block-children .block-content {
 :root {
 
 	--ls-right-sidebar-width: 42.3%;
-	--ls-main-content-max-width: 830px;
+	--ls-main-content-max-width: 828px;
   --ls-border-radius-tiny: 2px;
   --ls-border-radius-low: 3px;
 
