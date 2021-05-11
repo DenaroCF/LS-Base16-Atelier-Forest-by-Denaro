@@ -814,3 +814,14 @@ mark {
     text-decoration: underline;
     color: white !important;
 }
+
+/* == ls - spoiler-tags v20210418 ==*/
+
+div[data-refs-self*="hide"]:not(:focus-within):not(:hover) {
+    color: var(--ls-block-bullet-border-color); 
+    text-decoration: underline;
+    text-underline-offset: 0.1em;
+}
+div[data-refs-self*="hide"] .block-content:not(:focus-within):not(:hover) {
+    color: transparent; 
+}
