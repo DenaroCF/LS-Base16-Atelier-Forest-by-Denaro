@@ -114,8 +114,30 @@ CHECKBOXES
 
 .doing .form-checkbox {
     align-items: center;
-    background-color: var(--ls-page-checkbox-color);
+    background-color: rgba(191, 57, 42, 0.25);
     border: 1px solid var(--pomegranate) !important;
+    border-radius: var(--ls-border-radius-tiny);
+    display: inline-flex;
+    height: 1rem;
+    justify-content: center;
+    width: 1rem;
+}
+
+.now .form-checkbox {
+    align-items: center;
+    background-color: rgba(22,160,133,0.25);
+    border: 1px solid var(--greensea) !important;
+    border-radius: var(--ls-border-radius-tiny);
+    display: inline-flex;
+    height: 1rem;
+    justify-content: center;
+    width: 1rem;
+}
+
+.later .form-checkbox {
+    align-items: center;
+    background-color: rgba(241,196,15,0.25);
+    border: 1px solid var(--sunflower) !important;
     border-radius: var(--ls-border-radius-tiny);
     display: inline-flex;
     height: 1rem;
