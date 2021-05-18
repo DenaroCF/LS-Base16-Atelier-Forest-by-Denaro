@@ -112,6 +112,17 @@ CHECKBOXES
     width: 1rem;
 }
 
+.doing .form-checkbox {
+    align-items: center;
+    background-color: var(--ls-page-checkbox-color);
+    border: 1px solid var(--pomegranate) !important;
+    border-radius: var(--ls-border-radius-tiny);
+    display: inline-flex;
+    height: 1rem;
+    justify-content: center;
+    width: 1rem;
+}
+
 .form-checkbox.checked {
     background-color: var(--ls-border-color);
     border: none !important;
