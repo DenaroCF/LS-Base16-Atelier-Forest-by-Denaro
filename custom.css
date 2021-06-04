@@ -158,75 +158,75 @@ PRIORITIES & PICKER
 */
 
 a[priority] {
-    height: 1rem;
-    line-height: 1rem;
-    margin: 3px;
-    width: 1rem;
+height: 1rem;
+line-height: 1rem;
+margin: 3px;
+width: 1rem;
 }
 
 a[priority],
 a.priority {
-    color: var(--ls-tag-text-color);
-    display: inline-block;
-    font-size: 0px; /* Hide text */
-    opacity: 1 !important;
-    position: relative;
+color: var(--ls-tag-text-color);
+display: inline-block;
+font-size: 0px; /* Hide text */
+opacity: 1 !important;
+position: relative;
 }
 
 a.tooltip-priority {
-    color: var(--ls-tag-text-color);
+color: var(--ls-tag-text-color);
 }
 
 a.priority:hover,
 a.tooltip-priority:hover {
-    color: var(--ls-tag-text-hover-color);
-    opacity: 0.5;
+color: var(--ls-tag-text-hover-color);
+opacity: 0.5;
 }
 
 a[priority="A"]:after,
 a.priority[href="#/page/A"]:after {
-    background-color: var(--pomegranate);
-    content: 'A';
+background-color: var(--pomegranate);
+content: 'A';
 }
 
 a[priority="B"]:after,
 a.priority[href="#/page/B"]:after {
-    background-color: var(--sunflower);
-    content: 'B';
+background-color: var(--sunflower);
+content: 'B';
 }
 
 a[priority="C"]:after,
 a.priority[href="#/page/C"]:after {
-    background-color: var(--greensea);
-    content: 'C';
+background-color: var(--greensea);
+content: 'C';
 }
 
 a[priority]:after,
 a.priority:after {
-    border-radius: 50%;
-    color: var(--ls-primary-background-color);
-    display: inline-block;
-    font-size: 0.8rem;
-    font-weight: 700;
-    height: 1rem;
-    line-height: 1rem;
-    text-align: center;
-    width: 1rem;
+border-radius: 50%;
+color: var(--ls-primary-background-color);
+display: inline-block;
+font-size: 0.8rem;
+font-weight: 700;
+height: 1rem;
+line-height: 1rem;
+text-align: center;
+width: 1rem;
 }
 
 .Tooltip__label {
-    --arrow-size: 0px;
-    background-color: var(--ls-primary-background-color);
-    border: 1px solid var(--ash);
-    font-size: 1rem;
-    left: -2px;
-    padding: 0 2px;
-    top: -2px;
-    width: max-content;
+--arrow-size: 0px;
+background-color: var(--ls-primary-background-color);
+border: 1px solid var(--ash);
+font-size: 1rem;
+left: -2px;
+padding: 0 2px;
+top: -2px;
+width: max-content;
 }
 
 .Tooltip__label ul {
-    margin-left: 0;
+margin-left: 0;
 }
 
 /* numbered lists 0.2 20210220 */
