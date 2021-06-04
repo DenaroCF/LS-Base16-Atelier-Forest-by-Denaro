@@ -157,6 +157,7 @@ PRIORITIES & PICKER
 ==================================================
 */
 
+/*
 a[priority] {
 height: 1rem;
 line-height: 1rem;
@@ -227,6 +228,60 @@ width: max-content;
 
 .Tooltip__label ul {
 margin-left: 0;
+}
+*/
+
+/* Priority tag styling */
+
+a[priority],
+a.priority {
+    font-size: 17px; /* Hide text */
+}
+
+a[priority="A"]:before,
+a.priority[href="#/page/A" i]:before {
+  content: "🔴";
+  margin-right: 2px;
+}
+
+a[priority="B"]:before,
+a.priority[href="#/page/B" i]:before {
+  content: "🟡";
+  margin-right: 2px;
+}
+
+a[priority="C"]:before,
+a.priority[href="#/page/C" i]:before {
+  content: "🟢";
+  margin-right: 2px;
+}
+
+a[priority]:before,
+a.priority:before {
+    border-radius: 50%;
+    color: var(--ls-primary-text-color);
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    width: 1.2rem;
+}
+
+.Tooltip__label {
+    --arrow-size: 0px;
+    background-color: var(--ls-primary-background-color);
+    border: 1px solid grey;
+    font-size: 1rem;
+    left: -2px;
+    padding: 0 2px;
+    top: -2px;
+    width: max-content;
+}
+
+.Tooltip__label ul {
+    margin-left: 0;
 }
 
 /* numbered lists 0.2 20210220 */
