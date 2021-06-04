@@ -411,6 +411,14 @@ b {
     font-weight: 800;
 }
 
+/*
+_____________________________
+|xxxxxxxxxxxxxxxxxxxxxxxxxxx|
+|xx|       HEADERS       |xx|
+|xxxxxxxxxxxxxxxxxxxxxxxxxxx|
+_____________________________
+*/
+
 .ls-block h1,
 .ls-block h2,
 .ls-block h3,
@@ -439,6 +447,8 @@ b {
 .ls-block h5, .ls-block h6 {
   color: #6FC4E3;
 }
+
+/*====== Headers End =========*/
   
   .white-theme {
     --button-blue: var(--base0Cl);
